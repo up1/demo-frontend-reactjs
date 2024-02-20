@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 style={{ color: "green" }}>Call REST API</h1>
+      <h1 data-testid="message_text" style={{ color: "green" }}>Call REST API</h1>
       <center>
         <div
           style={{
@@ -29,7 +29,7 @@ function App() {
             marginBlock: 10,
           }}
         >
-          <p style={{ fontSize: 20, color: 'white' }}>{data.message}</p>
+          <p data-testid="hello_text" style={{ fontSize: 20, color: 'white' }}>{data.message}</p>
         </div>
       </center>
     </div>
