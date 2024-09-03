@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1 data-testid="message_text" style={{ color: "green" }}>Hello REST API 2024/03</h1>
+      <h1 data-testid="message_text" style={{ color: "green" }}>Hello REST API 2024/09/03</h1>
       <center>
         <div
           style={{
