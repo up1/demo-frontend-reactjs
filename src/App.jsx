@@ -21,6 +21,7 @@ function App() {
       <h1 data-testid="message_text" style={{ color: "green" }}>Call REST API 2024/12/25 new !!</h1>
       <center>
         <div
+          data-testid="message_box"
           style={{
             width: "15em",
             backgroundColor: "#35D841",
